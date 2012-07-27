@@ -1,0 +1,220 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en"><head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Raphaël · Punch Chart</title>
+        <script src="js/raphael.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/dots.js" type="text/javascript" charset="utf-8"></script>
+        <link rel="stylesheet" href="js/demo.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="js/demo-print.css" type="text/css" media="print">
+        <style type="text/css" media="screen">
+            body {
+                margin: 0;
+            }
+            #chart {
+                color: #333;
+                left: 50%;
+                margin: -150px 0 0 -400px;
+                position: absolute;
+                top: 50%;
+                width: 300px;
+                width: 800px;
+            }
+        </style>
+    </head>
+    <body>
+        <table style="display: none;" id="for-chart">
+            <tfoot>
+                <tr>
+                    <td>&nbsp;</td>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th>6</th>
+                    <th>7</th>
+                    <th>8</th>
+                    <th>9</th>
+                    <th>10</th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th>6</th>
+                    <th>7</th>
+                    <th>8</th>
+                    <th>9</th>
+                    <th>10</th>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <th scope="row"></th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="open linia" >39</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="open linia" >39</td>
+                    <td></td>
+                    <td class="linia" >39</td>
+                    <td></td>
+                    <td class="open linia" >39</td>
+                    <td></td>
+                    <td class="linia" >39</td>
+                    <td></td>
+                    <td class="linia" >39</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                <th scope="row"></th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="open linia" >19</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="open linia" >19</td>
+                    <td></td>
+                    <td class="linia" >19</td>
+                    <td></td>
+                    <td class="open linia" >19</td>
+                    <td></td>
+                    <td class="linia" >19</td>
+                    <td></td>
+                    <td class="linia" >19</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">1A</th>
+                    <td></td>
+                    <td>31</td>
+                    <td></td>
+                    <td>31</td>
+                    <td></td>
+                    <td>31</td>
+                    <td></td>
+                    <td>31</td>
+                    <td></td>
+                    <td>31</td>
+                    <td></td>
+                    <td>31</td>
+                    <td></td>
+                    <td>31</td>
+                    <td></td>
+                    <td>31</td>
+                    <td></td>
+                    <td>31</td>
+                    <td></td>
+                    <td class="open">31</td>
+                </tr>
+                <tr>
+                    <th scope="row">2A</th>
+                    <td></td>
+                    <td>32</td>
+                    <td></td>
+                    <td>32</td>
+                    <td></td>
+                    <td>32</td>
+                    <td></td>
+                    <td>32</td>
+                    <td></td>
+                    <td>32</td>
+                    <td></td>
+                    <td>32</td>
+                    <td></td>
+                    <td>32</td>
+                    <td></td>
+                    <td>32</td>
+                    <td></td>
+                    <td>32</td>
+                    <td></td>
+                    <td class="open">32</td>
+                </tr>
+                <tr>
+                    <th scope="row">3A</th>
+                    <td></td>
+                    <td>33</td>
+                    <td></td>
+                    <td>33</td>
+                    <td></td>
+                    <td>33</td>
+                    <td></td>
+                    <td>33</td>
+                    <td></td>
+                    <td>33</td>
+                    <td></td>
+                    <td>33</td>
+                    <td></td>
+                    <td>33</td>
+                    <td></td>
+                    <td>33</td>
+                    <td></td>
+                    <td>33</td>
+                    <td></td>
+                    <td class="open">33</td>
+                </tr>
+                <tr>
+                    <th scope="row"></th>
+                    <td></td>
+                    <td class="linia">19</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="linia">19</td>
+                    <td></td>
+                    <td class="linia">19</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="linia open">19</td>
+                </tr>
+                <tr>
+                    <th scope="row"></th>
+                    <td></td>
+                    <td class="linia">39</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="linia">39</td>
+                    <td></td>
+                    <td class="linia">39</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="linia open">39</td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="chart"></div>
+        <p id="copy">Demo of <a href="http://raphaeljs.com/">Raphaël</a>—JavaScript Vector Library</p>
+    
+
+</body></html>

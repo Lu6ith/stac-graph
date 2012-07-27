@@ -1,0 +1,232 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"h",
+				"HTTPS"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/wojtekl/WWW/stac-graph/dots.html",
+			"settings":
+			{
+				"buffer_size": 7334,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dots.js",
+			"settings":
+			{
+				"buffer_size": 4305,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 341.0,
+		"selected_items":
+		[
+		],
+		"width": 440.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/wojtekl/WWW/raphael/raph1",
+		"/home/wojtekl/WWW/raphael/graffle_pliki/graffle.js",
+		"/home/wojtekl/WWW/raphael/dots_pliki/demo.css",
+		"/home/wojtekl/Git/flight-stream/server.js",
+		"/home/wojtekl/Git/fligh_new/flight-stream/server.js",
+		"/home/wojtekl/WWW/dokuwiki-2012-01-25a/index.php",
+		"/home/wojtekl/Git/file-hoister/step0.js",
+		"/home/wojtekl/Git/Mailer/mailer1.js",
+		"/home/wojtekl/WWW/raphael/dots.html",
+		"/home/wojtekl/Git/flight-stream/public/index.html",
+		"/home/wojtekl/Git/flight-stream/public/application.css",
+		"/home/wojtekl/Git/file-hoister/package.json",
+		"/home/wojtekl/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"22",
+			">30<"
+		],
+		"highlight": true,
+		"in_selection": true,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"33",
+			"32",
+			"31",
+			">22<"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/wojtekl/WWW/stac-graph/dots.html",
+					"settings":
+					{
+						"buffer_size": 7334,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4162,
+								4162
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1989.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "dots.js",
+					"settings":
+					{
+						"buffer_size": 4305,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								610,
+								610
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 59.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/home/wojtekl/WWW/raphael/raph1"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
